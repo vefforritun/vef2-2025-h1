@@ -1,5 +1,7 @@
 # Vefforritun 2, 2025, hópverkefni 1
 
+[Kynning í fyrirlestri](https://youtu.be/abHe9ADi2VI?t=547).
+
 ## Verkefnið
 
 Útbúa skal vefþjónustur fyrir verkefni ákveðið af hópnum. Þetta er ólíkt hópverkefnum seinustu ára þar sem vel skilgreindar vefþjónustur hafa verið gefnar til útfærslu. Hægt er að fá tilfinningu fyrir útfærslu með að skoða sýnilausnir á þeim verkefnum:
@@ -76,6 +78,8 @@ Aðeins ætti að leyfa myndir af eftirfarandi tegundum (`mime type`):
 - jpg, `image/jpeg`
 - png, `image/png`
 
+Aukalega eða í staðinn fyrir myndastuðning er líka hægt að setja upp vídeó stuðning með [Mux](https://www.mux.com/).
+
 ### Tæki, tól og test
 
 Nota má Express, Hono eða önnur framework fyrir vefþjónustur, berið önnur framework undir Óla áður en lagt er af stað.
@@ -148,7 +152,7 @@ Sjást ætti á commit history að allir meðlimir hóps hafi tekið þátt í v
 
 ## Sett fyrir
 
-Verkefni sett fyrir í fyrirlestri miðvikudaginn 5. febrúar 2025.
+Verkefni sett fyrir eftir fyrirlestur miðvikudaginn 5. febrúar 2025 og kynnt í fyrirlestri 12. febrúar.
 
 ## Skil
 
@@ -156,7 +160,7 @@ Tilnefna skal hópstjóra sem skráir sig í ákveðinn hóp undir „Hópverkef
 
 Útbúa skal hóp jafnvel ef verkefnið er unnið sem einstaklingsverkefni.
 
-Hópstjóri skal skila fyrir hönd allra í Canvas í seinasta lagi föstudaginn 28. febrúar 2025.
+Hópstjóri skal skila fyrir hönd allra í Canvas í seinasta lagi föstudaginn 7. mars 2025.
 
 **Mikilvægt er að öll skil séu gerð í hóp annars munu ekki allir nemendur fá einkunn.**
 
@@ -188,3 +192,4 @@ Sett verða fyrir ([sjá nánar í kynningu á áfanga](https://github.com/veffo
 | Útgáfa | Breyting      |
 | ------ | ------------- |
 | 0.1    | Fyrsta útgáfa |
+| 0.2    | Bæta við kynningu í fyrirlestri; bæta við um Mux; uppfæra skiladags |
