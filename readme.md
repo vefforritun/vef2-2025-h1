@@ -33,6 +33,8 @@ Nota má beinar SQL fyrirspurnir eða tól eins og [prisma](https://www.prisma.i
 
 Hægt er að útbúa testgögn eða nota þjónustu eins og [faker](https://github.com/faker-js/faker).
 
+Ef verkefni 2 eða 3 var hýst á Render getur verið að ekki sé hægt að útbúa annan gagnagrunn, þá er hægt að nota aðra hýsingu eða sérstaka gagnagrunnshýsingu, t.d. [Neon](https://neon.tech/).
+
 ### Vefþjónustur
 
 Útfæra skal REST vefþjónustur til að útfæra alla virkni í verkefninu.
@@ -189,7 +191,8 @@ Sett verða fyrir ([sjá nánar í kynningu á áfanga](https://github.com/veffo
 
 > Útgáfa 0.1
 
-| Útgáfa | Breyting      |
-| ------ | ------------- |
-| 0.1    | Fyrsta útgáfa |
+| Útgáfa | Breyting                                                            |
+| ------ | ------------------------------------------------------------------- |
+| 0.1    | Fyrsta útgáfa                                                       |
 | 0.2    | Bæta við kynningu í fyrirlestri; bæta við um Mux; uppfæra skiladags |
+| 0.3    | Bæta við um Neon                                                    |
