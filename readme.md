@@ -43,7 +43,7 @@ Huga skal að hönnun og uppsetningu á vefþjónustum:
 
 - Staðfesta (validation) þarf og hreinsa öll gögn (sanitization) sem send eru inn af notendum, bæði óauðkenndum og stjórnendum.
 - Nota skal `JSON` í öllum samskiptum.
-- GET á `/` skal skila lista af slóðum í mögulegar aðgerðir.
+- GET á `/` skal skila lista af öllum slóðum í mögulegar aðgerðir.
 - Ef beðið er um eitthvað sem ekki er til skal skila `404`.
 - Ef beðið er um einingu eða reynt að framkvæma aðgerð sem ekki er leyfi fyrir skal skila `401`.
 - Allar niðurstöður sem geta skilað mörgum færslum (fleiri en 10) skulu skila _síðum_.
@@ -123,9 +123,12 @@ Vinna áfram með [hópverkefni 2 úr vef1 2020](https://github.com/vefforritun/
 Í rót verkefnis skal vera `README.md` skjal sem tilgreinir:
 
 - Upplýsingar um hvernig setja skuli upp verkefnið.
+- Öll route í vefþjónustu og viðkomandi aðgerð, þetta getur verið afrit af því sem `GET /` skilar, sjá að ofan.
 - Dæmi um köll í vefþjónustu m.v. test gögn.
 - Innskráning fyrir `admin` stjórnanda ásamt lykilorði.
 - Nöfn og notendanöfn allra í hóp.
+
+Mikilvægt er að einhvern veginn séu allar slóðir vefþjónustu tilteknar fyrir yfirferð.
 
 ## Hópavinna
 
@@ -189,10 +192,12 @@ Sett verða fyrir ([sjá nánar í kynningu á áfanga](https://github.com/veffo
 
 ---
 
-> Útgáfa 0.1
+> Útgáfa 0.3
 
 | Útgáfa | Breyting                                                            |
 | ------ | ------------------------------------------------------------------- |
 | 0.1    | Fyrsta útgáfa                                                       |
 | 0.2    | Bæta við kynningu í fyrirlestri; bæta við um Mux; uppfæra skiladags |
+| 0.3    | Nánar um að setja inn routes fyrir yfirferð                         |
+
 | 0.3    | Bæta við um Neon                                                    |
