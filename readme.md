@@ -192,12 +192,11 @@ Sett verða fyrir ([sjá nánar í kynningu á áfanga](https://github.com/veffo
 
 ---
 
-> Útgáfa 0.3
+> Útgáfa 0.4
 
 | Útgáfa | Breyting                                                            |
 | ------ | ------------------------------------------------------------------- |
 | 0.1    | Fyrsta útgáfa                                                       |
 | 0.2    | Bæta við kynningu í fyrirlestri; bæta við um Mux; uppfæra skiladags |
-| 0.3    | Nánar um að setja inn routes fyrir yfirferð                         |
-
 | 0.3    | Bæta við um Neon                                                    |
+| 0.4    | Nánar um að setja inn routes fyrir yfirferð                         |
